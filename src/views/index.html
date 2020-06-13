@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <!-- ------------------------------ 引入font-awesome和animate ------------------------------ -->
+    <link rel="stylesheet" href="../libs/element-ui/index.css">
+    <link rel="stylesheet" href="../libs/animate.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<div id="page"></div>
+
+<script src="../libs/vue.js"></script>
+<script src="../libs/axios.min.js"></script>
+<script src="../libs/element-ui/index.js"></script>
+
+<script>
+    let client = require('electron-connect').client;
+    // -------------------------------------- 调试: 自动刷新 --------------------------------------
+    client.create();
+</script>
+<script src="../js/coms/menu.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+html, body
+  margin 0
+  padding 0
+  background-color #263238
+ul
+  padding 0
+  list-style none
+
+
+.page-menu
+  background-color #2e2c29
+  height 40px
+  .menu-icon
+    position absolute
+    top 6px
+    width 20px
+    height @width
+    font-size 20px
+    color white
+    border none!important
+    cursor pointer
+    outline none
+    &-close
+      right 6px
+    &-fullscreen
+      right 40px
+    &-miniscreen
+      right 74px
+  .el-menu-item, .el-submenu__title
+    width 160px
+    color white !important
+    font-size 18px
+    text-align center
+    &:hover
+      color theme-color !important
+      .el-submenu__icon-arrow
+        color theme-color !important
+  .el-submenu__icon-arrow
+    color white !important

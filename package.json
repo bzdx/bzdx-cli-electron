@@ -1,0 +1,21 @@
+{
+  "name": "bzdx-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "hot": ".\\node_modules\\.bin\\gulp watch:electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron-connect": "^0.6.3",
+    "gulp": "^4.0.2",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "electron": "^7.1.2",
+    "element-ui": "^2.12.0"
+  }
+}
