@@ -15,7 +15,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "electron": "^7.1.2",
+    "electron": "^15.5.5",
     "element-ui": "^2.12.0"
   }
 }
